@@ -31,15 +31,15 @@ p
 
 #content
 {
-	width:800px; 
+	max-width:800px; 
+	padding-left: 20px;
+	padding-right: 20px;
 	margin-left: auto; 
 	margin-right: auto;
 	text-align: left;
 	position: relative;
-	top: 35%;
-	transform: translateY(-50%);
-	text-align: justify;
-    text-justify: inter-word;
+	top: 100px;
+	
 }
 
 #linked-in-badge
@@ -48,7 +48,7 @@ p
 	height:64px;
 	border-width: 0px;
 	position: fixed;
-	bottom: 20px;
+	top: 20px;
 	right: 20px;
 }
 
