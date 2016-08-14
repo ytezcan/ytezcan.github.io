@@ -56,6 +56,11 @@ p
 	right: 20px;
 }
 
+#linked-in-badge:hover
+{
+	cursor: pointer;
+}
+
 #linked-in-box
 {
 	margin-top: 20px;
