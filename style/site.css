@@ -6,12 +6,16 @@ html
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	height:100%;
+
 }
 
 body
 {
 	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
+	height:100%;
+
 }
 
 h1
