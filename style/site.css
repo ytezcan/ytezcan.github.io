@@ -117,3 +117,54 @@ a
 {
 	content:url(../images/linkedin_hover.png); 
 }
+
+div.shadow_container {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+div.sl {
+    height: 50px;
+    position: absolute;
+    top: 0;
+    width: 497px;
+    left: 0;
+    background: url(http://static.tumblr.com/aoqeoea/dB2mioknh/leftheadershadow.png) no-repeat 0 0;
+}
+
+div.sm {
+    height: 49px;
+    position: absolute;
+    top: 0;
+    width: auto;
+    left: 497px;
+    right: 487px;
+    background: url(http://static.tumblr.com/aoqeoea/JrNmiol0g/middleshadowfiller.png) repeat-x 0 0;
+}
+
+div.sr {
+    height: 50px;
+    position: absolute;
+    top: 0;
+    width: 487px;
+    right: 0;
+    background: url(http://static.tumblr.com/aoqeoea/8rcmiol2f/rightheadershadow.png) no-repeat 0 0;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+	div.sm {
+		left: 0px;
+		right: 0px;
+	}
+
+	div.sr {
+		background: none;
+	}
+	div.sl {
+		background: none;
+	}
+}
