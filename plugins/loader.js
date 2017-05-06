@@ -20,6 +20,7 @@ function fix() {
 }
 
  $(window).on('load', function () {
+	fix();
 	$("#fullscreen").css("background", "rgba(8, 29, 56, 0.9)");
  });
 
