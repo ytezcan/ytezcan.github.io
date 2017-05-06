@@ -18,3 +18,9 @@ function fix() {
     $("#content").css("top", top + "px");
     
 }
+
+ $(window).on('load', function () {
+	$("#fullscreen").css("background", "rgba(8, 29, 56, 0.9)");
+ });
+
+

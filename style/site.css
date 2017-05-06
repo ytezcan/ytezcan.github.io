@@ -14,14 +14,15 @@ body
 	padding: 0px;
 }
 
-.fullscreen {
+#fullscreen
+{
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     overflow: auto;
-    background: rgba(8, 29, 56, 0.9);
+    background: rgba(8, 29, 56, 1);
 }
 
 h1
