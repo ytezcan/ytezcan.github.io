@@ -108,7 +108,7 @@ a
 	bottom: 0px;
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: rgba(241, 241, 241, 0.5);
+    border-top-color: rgba(241, 241, 241, 0.1);
 }
 
 div.shadow_container {
