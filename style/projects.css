@@ -69,7 +69,8 @@ div#container
     padding-bottom: 30px;
 }
 
-div.shadow_container {
+.s_container 
+{
     width: 100%;
     height: 50px;
     position: fixed;
