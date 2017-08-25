@@ -85,7 +85,7 @@ div.sl {
     top: 0;
     width: 497px;
     left: 0;
-    background: url(http://static.tumblr.com/aoqeoea/dB2mioknh/leftheadershadow.png) no-repeat 0 0;
+    background: url(../images/s_left.png) no-repeat 0 0;
 }
 
 div.sm {
@@ -95,7 +95,7 @@ div.sm {
     width: auto;
     left: 497px;
     right: 487px;
-    background: url(http://static.tumblr.com/aoqeoea/JrNmiol0g/middleshadowfiller.png) repeat-x 0 0;
+    background: url(../images/s_middle.png) repeat-x 0 0;
 }
 
 div.sr {
@@ -104,7 +104,7 @@ div.sr {
     top: 0;
     width: 487px;
     right: 0;
-    background: url(http://static.tumblr.com/aoqeoea/8rcmiol2f/rightheadershadow.png) no-repeat 0 0;
+    background: url(../images/s_right.png) no-repeat 0 0;
 }
 
 @media only screen and (max-width: 1000px) 

@@ -1,39 +1,47 @@
 html { 
-  background: url(../images/cover.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
+    background: url(../images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
 }
+
+html, body {}
+
 
 body
 {
    	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
+	color: #000000;
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
-}
-
-#fullscreen
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: auto;
-    background: rgba(8, 29, 56, 1);
+    font-weight: 300px;
 }
 
 h1
 {
 	margin-top: 0px;
 	padding-top: 0px;
-	color: #ffffff;
 	margin-bottom: 0px;
 	padding-bottom :0px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 54px;
+}
+
+h2
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom :0px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 32px;
 }
 
 img
@@ -49,21 +57,66 @@ img
 	margin-right: auto;
 	text-align: center;
 	position: relative;
-    font-size: 1.500rem;
+    font-size: 1.000rem;
 	font-weight: 300;
     line-height: 1.35;
-    max-width: 800px;
-    padding-left: 30px;
-    padding-right: 30px;
+    max-width: 750px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 140px;
+    background-color: #ffffff;
+    height: 1500px;
+    color: #353535;
+}
+
+.section
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#content:before, #content:after 
+{
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+#content:before 
+{
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+}
+#content:after 
+{
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
 }
 
 @media only screen and (max-width: 768px) 
 {
+    html
+    {
+        overflow: auto;
+    }
+    
 	#content
 	{
+        margin-top: 0px;
 		font-size: 1.125rem;
 		font-weight: 300;
 		line-height: 1.6;
+        height: auto;
+        padding-bottom: 100px;
 	}
 }
 
@@ -93,24 +146,6 @@ a
 	cursor: pointer;
 }
 
-#footer p
-{
-	font-weight: 600;
-	font-size: 14px;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-
-#footer
-{
-	width: 100%;
-	position: fixed;
-	bottom: 0px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: rgba(241, 241, 241, 0.1);
-}
-
 div.shadow_container {
     width: 100%;
     height: 50px;
@@ -125,7 +160,7 @@ div.sl {
     top: 0;
     width: 497px;
     left: 0;
-    background: url(http://static.tumblr.com/aoqeoea/dB2mioknh/leftheadershadow.png) no-repeat 0 0;
+    background: url(../images/s_left.png) no-repeat 0 0;
 }
 
 div.sm {
@@ -135,7 +170,7 @@ div.sm {
     width: auto;
     left: 497px;
     right: 487px;
-    background: url(http://static.tumblr.com/aoqeoea/JrNmiol0g/middleshadowfiller.png) repeat-x 0 0;
+    background: url(../images/s_middle.png) repeat-x 0 0;
 }
 
 div.sr {
@@ -144,8 +179,23 @@ div.sr {
     top: 0;
     width: 487px;
     right: 0;
-    background: url(http://static.tumblr.com/aoqeoea/8rcmiol2f/rightheadershadow.png) no-repeat 0 0;
+    background: url(../images/s_right.png) no-repeat 0 0;
 }
+
+hr
+{
+    border: 0px;
+    background-color: #403e3b;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2px;
+}
+
+hr.xl
+{
+    height: 6px;
+}
+
 
 @media only screen and (max-width: 1000px) 
 {
