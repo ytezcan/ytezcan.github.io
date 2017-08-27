@@ -6,7 +6,6 @@ html {
     background-size: cover;
     margin: 0; 
     height: 100%; 
-    overflow: hidden;
 }
 
 html, body {}
@@ -65,8 +64,9 @@ img
     padding-right: 60px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin-top: 140px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
     background-color: #ffffff;
-    height: 1500px;
     color: #353535;
 }
 
@@ -117,6 +117,7 @@ img
 		line-height: 1.6;
         height: auto;
         padding-bottom: 100px;
+        margin-bottom: 0px;
 	}
     
     #content:before, #content:after 
@@ -175,6 +176,42 @@ div.sr {
     background: url(../images/s_right.png) no-repeat 0 0;
 }
 
+div.bottom_shadow_container {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+div.sbl {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 497px;
+    left: 0;
+    background: url(../images/sb_left.png) no-repeat 0 0;
+}
+
+div.sbm {
+    height: 49px;
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    left: 497px;
+    right: 487px;
+    background: url(../images/sb_middle.png) repeat-x 0 0;
+}
+
+div.sbr {
+    height: 50px;
+    position: absolute;
+    top: 0;
+    width: 487px;
+    right: 0;
+    background: url(../images/sb_right.png) no-repeat 0 0;
+}
+
 hr
 {
     border: 0px;
@@ -189,6 +226,39 @@ hr.xl
     height: 6px;
 }
 
+#footer
+{
+    
+}
+
+#linked-in-box
+{
+    margin-top: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    color: #000000;
+    padding: 8px 40px 8px 40px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#linked-in-box:hover
+{
+    background-color: rgba(0, 0, 0, 1);
+	cursor: pointer;
+    border-color: #000000;
+    color: #ffffff;
+}
 
 @media only screen and (max-width: 1000px) 
 {
@@ -202,6 +272,20 @@ hr.xl
 		width: 0px;
 	}
 	div.sl {
+		background: none;
+		width: 0px;
+	}
+    
+    div.sbm {
+		left: 0px;
+		right: 0px;
+	}
+
+	div.sbr {
+		background: none;
+		width: 0px;
+	}
+	div.sbl {
 		background: none;
 		width: 0px;
 	}
@@ -219,6 +303,20 @@ hr.xl
 		width: 0px;
 	}
 	div.sl {
+		background: none;
+		width: 0px;
+	}
+    
+    div.sbm {
+		background: none;
+		width: 0px;
+	}
+
+	div.sbr {
+		background: none;
+		width: 0px;
+	}
+	div.sbl {
 		background: none;
 		width: 0px;
 	}
