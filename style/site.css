@@ -70,6 +70,12 @@ img
     color: #353535;
 }
 
+
+#footer
+{
+    margin-top: 250px;
+}
+
 .section
 {
     padding-left: 10px;
@@ -124,6 +130,11 @@ img
     {
         display: none;
         box-shadow: none;
+    }
+    
+    #footer
+    {
+        margin-top: 0px;
     }
 }
 
@@ -226,10 +237,6 @@ hr.xl
     height: 6px;
 }
 
-#footer
-{
-    
-}
 
 #linked-in-box
 {
