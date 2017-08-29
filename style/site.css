@@ -6,6 +6,7 @@ html {
     background-size: cover;
     margin: 0; 
     height: 100%; 
+    overflow: hidden;
 }
 
 html, body {}
@@ -19,6 +20,7 @@ body
 	padding: 0px;
 	height: 100%;
     font-weight: 300px;
+    overflow: auto;
 }
 
 h1
