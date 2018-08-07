@@ -318,6 +318,8 @@ a
 
 @media only screen and (max-width: 768px) 
 {
+    padding-left: 30px;
+    padding-right: 30px;
 	div.sm {
 		background: none;
 		width: 0px;
