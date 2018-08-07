@@ -11,15 +11,15 @@ html {
 
 html, body {}
 
-
 body
 {
-   	font-family: 'Montserrat', sans-serif;
-	color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(145deg,#1c222d,#414b5d 100%);
+	color: #ffffff;
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
-    font-weight: 300;
+    font-weight: 400;
     overflow: auto;
 }
 
@@ -29,9 +29,9 @@ h1
 	padding-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom :0px;
-    font-weight: 200;
-    text-transform: uppercase;
-    font-size: 54px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 3.0rem;
 }
 
 h2
@@ -40,9 +40,22 @@ h2
 	padding-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom :0px;
-    font-weight: 200;
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 1.2rem;
+    padding-top: 1em;
+}
+
+h3
+{
+    color: #d4bb70;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom :0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2rem;
 }
 
 img
@@ -51,6 +64,10 @@ img
 	border-width: 0px;
 }
 
+#header
+{
+    line-height: 1.0;
+}
 
 #content
 {
@@ -58,18 +75,16 @@ img
 	margin-right: auto;
 	text-align: center;
 	position: relative;
-    font-size: 1.000rem;
+    font-size: 1.0rem;
 	font-weight: 300;
-    line-height: 1.35;
-    max-width: 750px;
+    line-height: 1.80;
     padding-left: 60px;
     padding-right: 60px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    margin-top: 140px;
+    margin-top: 40px;
+    max-width: 900px;
     margin-bottom: 50px;
     padding-bottom: 50px;
-    background-color: #ffffff;
-    color: #353535;
+    color: #ffffff;
 }
 
 
@@ -83,6 +98,7 @@ img
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
+    margin-bottom: 2em;
 }
 
 #content:before, #content:after 
@@ -120,9 +136,6 @@ img
 	#content
 	{
         margin-top: 0px;
-		font-size: 1.125rem;
-		font-weight: 300;
-		line-height: 1.6;
         height: auto;
         padding-bottom: 100px;
         margin-bottom: 0px;
@@ -150,7 +163,7 @@ a
 #linked-in-box:hover
 {
     background-color: rgba(255, 255, 255, 0.08);
-	cursor: pointer;
+    cursor: pointer;
 }
 
 div.shadow_container {
@@ -228,10 +241,11 @@ div.sbr {
 hr
 {
     border: 0px;
-    background-color: #403e3b;
+    background-color: #d4bb70;
     margin-top: 40px;
     margin-bottom: 40px;
     height: 2px;
+    width: 100px;
 }
 
 hr.xl
@@ -243,15 +257,17 @@ hr.xl
 #linked-in-box
 {
     margin-top: 20px;
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
-    border-color: #000000;
-    color: #000000;
-    padding: 8px 40px 8px 40px;
-    font-size: 14px;
+    border-color: #d4bb70;
+    color: #d4bb70;
+    padding: 12px 40px 12px 40px;
     text-align: center;
     display: inline-block;
     margin-bottom: 100px;
+    font-weight: 800;
+    font-size: 1rem;
+    background-color: #1c222d;
 }
 
 a
@@ -263,10 +279,10 @@ a
 
 #linked-in-box:hover
 {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #d4bb70;
 	cursor: pointer;
-    border-color: #000000;
-    color: #ffffff;
+    border-color: #d4bb70;
+    color: #000000;
 }
 
 @media only screen and (max-width: 1000px) 
