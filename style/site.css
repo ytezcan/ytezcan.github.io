@@ -321,13 +321,13 @@ a
 body::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #3a414f;
+	background-color: #626977;
 }
 
 body::-webkit-scrollbar
 {
 	width: 6px;
-	background-color: #3a414f;
+	background-color: #626977;
 }
 
 body::-webkit-scrollbar-thumb
