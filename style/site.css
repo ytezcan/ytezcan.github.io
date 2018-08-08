@@ -257,15 +257,15 @@ hr.xl
 #linked-in-box
 {
     margin-top: 20px;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-color: #d4bb70;
     color: #d4bb70;
-    padding: 12px 40px 12px 40px;
+    padding: 1em 3em 1em 3em;
     text-align: center;
     display: inline-block;
     margin-bottom: 100px;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1rem;
     background-color: #1c222d;
     line-height: 1;
